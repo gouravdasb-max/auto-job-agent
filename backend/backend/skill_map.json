@@ -1,0 +1,7 @@
+{
+  "python": ["python", "python3", "python programming"],
+  "javascript": ["javascript", "js"],
+  "machine learning": ["ml", "machine learning","ML"],
+  "sql": ["sql", "mysql", "postgresql"],
+  "react": ["react", "reactjs"]
+}
