@@ -1,10 +1,38 @@
 let remaining = 10;
-function login() {
-  // Later connect Firebase here
-  alert("Login clicked");
-  window.location.href = "dashboard.html";
+
+import { auth } from "./firebase.js";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword }
+from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
+
+function signup(){
+  const email = document.getElementById("email").value;
+  const pass = document.getElementById("password").value;
+  createUserWithEmailAndPassword(auth, email, pass)
+  .then(() => alert("Signup success"))
+  .catch(err => {
+    if (err.code === "auth/email-already-in-use") {
+      alert("Email already exists");
+    } else if (err.code === "auth/weak-password") {
+      alert("Password too weak");
+    } else {
+      alert("Signup failed");
+    }
+  });
 }
-window.scrollTo({ top: 0, behavior: "smooth" });
+
+function login(){
+  const email = document.getElementById("email").value;
+  const pass = document.getElementById("password").value;
+  signInWithEmailAndPassword(auth, email, pass)
+  .then(() => window.location = "dashboard.html")
+  .catch(err => {
+    if (err.code === "auth/invalid-credential") {
+      alert("Invalid email or password");
+    } else {
+      alert("Login failed");
+    }
+  });
+}
 
 async function loadJobs() {
   const skillInput = document.getElementById("skills").value;
@@ -33,7 +61,7 @@ async function loadJobs() {
           <p>${j.salary_range}</p>
           <p>${j.work_mode}</p>
           
-          <button onclick="applyJob(this)">Apply</button>
+          <button onclick="apply(this)">Apply</button>
         </div>
       `;
     });
@@ -61,7 +89,7 @@ async function extractSkills() {
   }
 }
 
-function applyJob(btn) {
+function apply(btn) {
   if (remaining > 0) {
     remaining--;
     document.getElementById("count").innerText = remaining;
