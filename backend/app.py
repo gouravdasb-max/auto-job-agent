@@ -1,1 +1,0 @@
-print("arnav is a chotu boy")
