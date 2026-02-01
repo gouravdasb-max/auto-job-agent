@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-df = pd.read_csv("jobs.csv")
+df = pd.read_csv("backend/jobs.csv")
 
 @app.route("/")
 def home():
