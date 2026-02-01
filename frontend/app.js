@@ -42,7 +42,7 @@ async function loadJobs() {
   
   try {
     div.innerHTML = "Loading jobs...";
-    const res = await fetch("http://127.0.0.1:5000/jobs");
+    const res = await fetch("http://localhost:5000/jobs/")
     const jobs = await res.json();
 
     if (jobs.length === 0) {
