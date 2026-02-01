@@ -22,6 +22,3 @@ async function loadJobs() {
     `;
   });
 }
-
-git config --global user.name "Gourav"
->> git config --global user.email "gouravdas.b@gmail.com" 
