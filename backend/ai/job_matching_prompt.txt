@@ -16,3 +16,10 @@ User Skills:
 
 Job Requirements:
 {{job_requirements}}
+
+Output format (JSON only):
+{
+  "match_score": 0.0,
+  "missing_skills": []
+}
+
