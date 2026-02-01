@@ -1,6 +1,10 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 import pandas as pd
+from flask import request
+from ai.resume_reader import extract_text
+from ai.resume_processor import process_resume_with_ai
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -38,6 +42,19 @@ def apply_job():
     )
 
     return jsonify(application)
+
+@app.route("/parse-resume", methods=["POST"])
+def parse_resume():
+    file = request.files["resume"]
+
+    os.makedirs("uploads", exist_ok=True)
+    path = os.path.join("uploads", file.filename)
+    file.save(path)
+
+    text = extract_text(path)
+    data = process_resume_with_ai(text)
+
+    return jsonify(data)
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)

@@ -152,7 +152,28 @@ function showApplication(app) {
     <p><b>Expected Salary:</b> ${app.expected_salary || ""}</p>
   `;
 }
+async function uploadResume() {
+  const fileInput = document.getElementById("resumeFile");
+  const file = fileInput.files[0];
 
+  const formData = new FormData();
+  formData.append("resume", file);
+
+  const res = await fetch("http://localhost:5000/parse-resume", {
+    method: "POST",
+    body: formData
+  });
+
+  const data = await res.json();
+
+  // Fill profile automatically
+  window.studentProfile = data.profile;
+  window.answerLibrary = data.answers;
+
+  alert("Resume processed!");
+}
+
+window.uploadResume = uploadResume;
 window.loadJobs = loadJobs;
 window.extractSkills = extractSkills;
 window.applyJob = applyJob;
