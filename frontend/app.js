@@ -34,8 +34,7 @@ function login(){
   });
 }
 
-window.login = login;
-window.signup = signup;
+
 
 async function loadJobs() {
   const skillInput = document.getElementById("skills").value;
@@ -48,9 +47,10 @@ async function loadJobs() {
 
     if (jobs.length === 0) {
   div.innerHTML = "No matching jobs found";
-  return -1
+  return
 }
-    
+
+
     document.getElementById("jobs").innerHTML =
       `<p>Showing jobs for: ${skillInput}</p>`;
     div.innerHTML = "";
@@ -118,3 +118,9 @@ async function applyJob(job) {
   showApplication(application);
 }
 
+
+window.loadJobs = loadJobs;
+window.extractSkills = extractSkills;
+window.apply = apply;
+window.login = login;
+window.signup = signup;
