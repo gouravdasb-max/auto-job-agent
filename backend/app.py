@@ -17,3 +17,21 @@ def get_jobs():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
+from flask import request
+from ai.application_filler import fill_application
+
+@app.route("/apply", methods=["POST"])
+def apply_job():
+    data = request.json
+    job = data["job"]
+    student_profile = data["student_profile"]
+    answer_library = data["answer_library"]
+
+    application = fill_application(
+        student_profile=student_profile,
+        answer_library=answer_library,
+        job=job
+    )
+
+    return jsonify(application)
