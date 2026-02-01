@@ -34,6 +34,9 @@ function login(){
   });
 }
 
+window.login = login;
+window.signup = signup;
+
 async function loadJobs() {
   const skillInput = document.getElementById("skills").value;
   const div = document.getElementById("jobs");
