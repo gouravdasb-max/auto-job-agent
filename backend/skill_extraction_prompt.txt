@@ -1,0 +1,12 @@
+You are an AI assistant.
+Given the resume text below, extract ONLY technical skills.
+
+Rules:
+- Return skills as a comma-separated list
+- Use lowercase
+- No explanations
+- No soft skills
+- No duplicates
+
+Resume:
+{{resume_text}}
