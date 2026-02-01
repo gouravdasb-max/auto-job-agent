@@ -9,6 +9,12 @@
 <h1>Job Dashboard</h1>
 <p>Applications Left: <span id="count">10</span></p>
 
+<h3>Paste Resume Text</h3>
+<textarea id="resume" rows="6" placeholder="Paste resume here..."></textarea>
+<button onclick="extractSkills()">Extract Skills</button>
+
+<input id="skills" placeholder="Enter skills e.g. python, js">
+
 <button onclick="loadJobs()">Load Jobs</button>
 
 <div id="jobs"></div>
