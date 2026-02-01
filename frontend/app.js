@@ -4,26 +4,35 @@ function login() {
   alert("Login clicked");
   window.location.href = "dashboard.html";
 }
+window.scrollTo({ top: 0, behavior: "smooth" });
 
 async function loadJobs() {
   const skillInput = document.getElementById("skills").value;
   const div = document.getElementById("jobs");
-  div.innerHTML = "Loading...";
   
   try {
+    div.innerHTML = "Loading jobs...";
     const res = await fetch("http://localhost:5000/jobs");
     const jobs = await res.json();
+
+    if (jobs.length === 0) {
+  div.innerHTML = "No matching jobs found";
+  return -1
+}
     
     document.getElementById("jobs").innerHTML =
       `<p>Showing jobs for: ${skillInput}</p>`;
     div.innerHTML = "";
 
-    jobs.slice(0, 10).forEach((j) => {
+    jobs.slice(0, 11).forEach((j) => {
       div.innerHTML += `
         <div class="job-card">
           <h3>${j.company}</h3>
-          <p>${j.position}</p>
+          <p>${j.role}</p>
           <p>${j.location}</p>
+          <p>${j.salary_range}</p>
+          <p>${j.work_mode}</p>
+          
           <button onclick="applyJob(this)">Apply</button>
         </div>
       `;

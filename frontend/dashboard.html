@@ -5,21 +5,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>Auto Job Agent</h2>
-<p>Resume → Skills → Jobs → Apply</p>
-<h1>Job Dashboard</h1>
+<div class="header">
+  <h1>Auto Job Agent</h1>
+</div>
 
+<div class="section">
+  <h3>Resume</h3>
+  <textarea id="resume" rows="5"></textarea>
+  <button onclick="extractSkills()">Extract Skills</button>
+</div>
 
-<p>Applications Left: <span id="count">10</span></p>
+<div class="section">
+  <h3>Skills</h3>
+  <input id="skills" placeholder="python, react, sql">
+</div>
 
-<h3>Paste Resume Text</h3>
-<textarea id="resume" rows="6" placeholder="Paste resume here..."></textarea>
-<p><small>AI will auto‑extract technical skills</small></p>
-<button onclick="extractSkills()">Extract Skills</button>
-
-<input id="skills" placeholder="Enter skills e.g. python, js">
-
-<button onclick="loadJobs()">Load Jobs</button>
+<div class="section">
+  <button onclick="loadJobs()">Load Jobs</button>
+  <p>Applications Left: <span id="count">10</span></p>
+</div>
 
 <div id="jobs"></div>
 
