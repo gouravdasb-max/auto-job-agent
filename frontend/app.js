@@ -1,3 +1,4 @@
+let remaining = 10;
 function login() {
   // Later connect Firebase here
   alert("Login clicked");
@@ -5,20 +6,32 @@ function login() {
 }
 
 async function loadJobs() {
-  const jobsDiv = document.getElementById("jobs");
-  jobsDiv.innerHTML = "Loading...";
-
-  // Demo data for now
-  const demoJobs = [
-    { company: "Google", role: "Software Engineer" },
-    { company: "Amazon", role: "Backend Developer" }
+  const jobs = [
+    {company:"Google", role:"Software Engineer", location:"Remote"},
+    {company:"Amazon", role:"Backend Developer", location:"Bangalore"}
   ];
 
-  jobsDiv.innerHTML = "";
+  const div = document.getElementById("jobs");
+  div.innerHTML = "";
 
-  demoJobs.forEach(job => {
-    jobsDiv.innerHTML += `
-      <p><b>${job.company}</b> - ${job.role}</p>
+  jobs.forEach(j => {
+    div.innerHTML += `
+      <div class="job-card">
+        <h3>${j.company}</h3>
+        <p>${j.role}</p>
+        <p>${j.location}</p>
+        <button onclick="applyJob()">Apply</button>
+      </div>
     `;
   });
+}
+
+function applyJob(){
+  if(remaining > 0){
+    remaining--;
+    document.getElementById("count").innerText = remaining;
+    alert("Applied!");
+  } else {
+    alert("Limit reached");
+  }
 }
