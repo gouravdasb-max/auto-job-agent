@@ -1,0 +1,18 @@
+Given:
+1. User skills
+2. Job requirements
+
+Return:
+- Match percentage (0 to 1)
+- Missing skills (comma separated)
+
+Rules:
+- Only compare given skills
+- Do not invent skills
+- Return JSON only
+
+User Skills:
+{{user_skills}}
+
+Job Requirements:
+{{job_requirements}}
