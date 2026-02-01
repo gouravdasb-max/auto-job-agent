@@ -1,1 +1,1 @@
-print("arnav is a chotu golu boy")
+print("arnav is a chotu boy")
