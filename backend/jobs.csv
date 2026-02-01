@@ -1,0 +1,251 @@
+company,company_rating,role,experience_level,skills,location,work_mode,salary_range
+Microsoft,3.1,Android Developer,5+ years,"Kotlin, Java, Android SDK","San Francisco, USA",Onsite,110000-170000
+KPMG,3.3,Data Engineer,5+ years,"SQL, Spark, ETL","Chennai, India",Onsite,2900000-3000000
+Alpha Systems,3.6,iOS Developer,3-5 years,"Swift, iOS SDK","Seattle, USA",Remote,135000-160000
+Google,3.1,Data Scientist,1-3 years,"Python, Pandas, ML","Delhi, India",Remote,1330000-2030000
+Apple,3.1,Backend Developer,1-3 years,"Python, Java, APIs, Databases","New York, USA",Hybrid,120000-160000
+TechHive,3.8,Frontend Developer,0-1 years,"HTML, CSS, JavaScript, React","New York, USA",Remote,150000-165000
+Accenture,3.2,QA Automation Engineer,1-3 years,"Selenium, Testing","Hyderabad, India",Remote,950000-3200000
+LogicSquare,4.3,SRE,0-1 years,"Linux, Monitoring, Cloud","Mumbai, India",Onsite,830000-3180000
+SigmaSoft,4.1,HR Executive,5+ years,"Communication, Management","Chennai, India",Onsite,1750000-2850000
+Microsoft,3.8,Android Developer,5+ years,"Kotlin, Java, Android SDK","Seattle, USA",Onsite,160000-170000
+DataSpring,3.3,Technical Recruiter,5+ years,"Communication, Management","Pune, India",Hybrid,1350000-1800000
+Airbnb,4.2,Android Developer,1-3 years,"Kotlin, Java, Android SDK","Bengaluru, India",Onsite,3300000-3450000
+NVIDIA,4.5,QA Automation Engineer,1-3 years,"Selenium, Testing","Chennai, India",Hybrid,1800000-1950000
+HCL,4.2,Business Analyst,0-1 years,"Communication, Management","Gurugram, India",Remote,1750000-2600000
+Deloitte,3.1,iOS Developer,1-3 years,"Swift, iOS SDK","Bengaluru, India",Remote,1300000-3400000
+SigmaSoft,4.8,Data Scientist,3-5 years,"Python, Pandas, ML","New York, USA",Hybrid,114000-134000
+PixelWorks,3.0,Android Developer,5+ years,"Kotlin, Java, Android SDK","Hyderabad, India",Remote,1400000-2000000
+Alpha Systems,4.4,Full Stack Developer,3-5 years,"React, Node.js, SQL","Delhi, India",Onsite,2150000-2200000
+Oracle,3.6,Operations Manager,5+ years,"Communication, Management",Singapore,Onsite,160000-175000
+Vertex Solutions,4.4,QA Automation Engineer,1-3 years,"Selenium, Testing","Toronto, Canada",Onsite,90000-105000
+Apple,3.0,Android Developer,5+ years,"Kotlin, Java, Android SDK","Mumbai, India",Remote,2500000-3000000
+Microsoft,4.3,Java Developer,5+ years,"Java, Spring Boot","Mumbai, India",Remote,1200000-3450000
+PixelWorks,4.0,Data Scientist,5+ years,"Python, Pandas, ML",Singapore,Onsite,204000-214000
+Meta,3.4,Machine Learning Engineer,1-3 years,"Python, TensorFlow, ML","Gurugram, India",Remote,830000-1580000
+Accenture,4.4,Machine Learning Engineer,3-5 years,"Python, TensorFlow, ML","Chennai, India",Onsite,3280000-3780000
+Google,4.4,Java Developer,5+ years,"Java, Spring Boot","San Francisco, USA",Onsite,85000-100000
+LogicSquare,4.2,Technical Recruiter,1-3 years,"Communication, Management","Gurugram, India",Onsite,1750000-2450000
+Airbnb,3.4,Web Developer,3-5 years,"HTML, CSS, JS","Noida, India",Onsite,2300000-3200000
+Apple,3.9,Security Engineer,0-1 years,"Network Security, Cryptography","Berlin, Germany",Onsite,140000-165000
+KPMG,3.8,Full Stack Developer,3-5 years,"React, Node.js, SQL","New York, USA",Hybrid,115000-170000
+Accenture,4.7,Business Analyst,0-1 years,"Communication, Management","Bengaluru, India",Onsite,2950000-3150000
+PwC,4.1,Blockchain Developer,3-5 years,"Solidity, Web3","San Francisco, USA",Remote,145000-180000
+Alpha Systems,3.4,SRE,0-1 years,"Linux, Monitoring, Cloud","London, UK",Onsite,194000-219000
+Airbnb,3.2,Software Engineer,1-3 years,"DSA, OOP, Git",Singapore,Onsite,140000-150000
+Netflix,3.5,Full Stack Developer,3-5 years,"React, Node.js, SQL","Delhi, India",Remote,2600000-3250000
+TechHive,4.3,Data Scientist,5+ years,"Python, Pandas, ML","Chennai, India",Onsite,1730000-3280000
+Google,4.4,Blockchain Developer,0-1 years,"Solidity, Web3","Gurugram, India",Onsite,2850000-3100000
+Accenture,4.1,Operations Manager,0-1 years,"Communication, Management",Singapore,Remote,110000-140000
+NVIDIA,3.0,Machine Learning Engineer,0-1 years,"Python, TensorFlow, ML","New York, USA",Remote,89000-154000
+Google,3.6,Software Engineer,0-1 years,"DSA, OOP, Git","San Francisco, USA",Onsite,130000-150000
+Google,3.7,Data Engineer,3-5 years,"SQL, Spark, ETL","Bengaluru, India",Onsite,1800000-2650000
+TechHive,4.6,iOS Developer,5+ years,"Swift, iOS SDK","Toronto, Canada",Onsite,105000-140000
+Microsoft,3.1,iOS Developer,3-5 years,"Swift, iOS SDK","New York, USA",Onsite,130000-140000
+NVIDIA,3.3,SRE,1-3 years,"Linux, Monitoring, Cloud","Berlin, Germany",Remote,84000-174000
+PwC,3.5,Mobile App Developer,5+ years,"Flutter, React Native","Delhi, India",Onsite,3350000-3500000
+HCL,3.8,Data Scientist,5+ years,"Python, Pandas, ML",Singapore,Hybrid,149000-229000
+QuantumSoft,4.3,Python Developer,3-5 years,"Python, Flask, Django","Hyderabad, India",Remote,950000-3300000
+Airbnb,4.5,QA Automation Engineer,5+ years,"Selenium, Testing","New York, USA",Hybrid,145000-150000
+TechHive,3.9,Cloud Engineer,5+ years,"AWS, Azure, GCP","Berlin, Germany",Onsite,164000-229000
+PixelWorks,3.5,Cloud Engineer,0-1 years,"AWS, Azure, GCP","Noida, India",Onsite,2280000-2430000
+Netflix,3.1,Technical Recruiter,1-3 years,"Communication, Management","Bengaluru, India",Remote,3300000-3350000
+PixelWorks,3.8,Product Manager,3-5 years,"Communication, Management","Seattle, USA",Remote,90000-165000
+NVIDIA,4.0,DevOps Engineer,3-5 years,"Docker, Kubernetes, CI/CD","Mumbai, India",Remote,2700000-3450000
+LogicSquare,4.7,iOS Developer,0-1 years,"Swift, iOS SDK","Bengaluru, India",Onsite,1700000-2150000
+Deloitte,3.5,Machine Learning Engineer,1-3 years,"Python, TensorFlow, ML","Mumbai, India",Remote,3680000-3880000
+Airbnb,3.4,Java Developer,1-3 years,"Java, Spring Boot","Chennai, India",Hybrid,450000-2550000
+PwC,3.7,iOS Developer,1-3 years,"Swift, iOS SDK","London, UK",Remote,75000-120000
+HCL,3.0,Web Developer,3-5 years,"HTML, CSS, JS",Singapore,Hybrid,80000-155000
+QuantumSoft,4.4,AI Engineer,1-3 years,"Deep Learning, PyTorch, Python","London, UK",Hybrid,124000-214000
+Microsoft,3.7,QA Automation Engineer,0-1 years,"Selenium, Testing","San Francisco, USA",Onsite,140000-160000
+Apple,4.2,Web Developer,3-5 years,"HTML, CSS, JS",Singapore,Onsite,155000-180000
+DataSpring,3.8,QA Automation Engineer,0-1 years,"Selenium, Testing","Delhi, India",Onsite,1950000-3150000
+KPMG,4.5,DevOps Engineer,0-1 years,"Docker, Kubernetes, CI/CD","Pune, India",Remote,1250000-1800000
+Deloitte,4.4,Data Scientist,0-1 years,"Python, Pandas, ML","London, UK",Remote,124000-204000
+Meta,4.0,iOS Developer,5+ years,"Swift, iOS SDK","Chennai, India",Remote,1450000-2400000
+Oracle,4.7,Cloud Engineer,0-1 years,"AWS, Azure, GCP","Gurugram, India",Onsite,2980000-3780000
+Capgemini,3.0,Python Developer,0-1 years,"Python, Flask, Django","Gurugram, India",Onsite,3250000-3500000
+Accenture,4.1,Blockchain Developer,1-3 years,"Solidity, Web3","Bengaluru, India",Remote,1850000-2700000
+DataSpring,3.1,Cloud Engineer,5+ years,"AWS, Azure, GCP","Pune, India",Remote,2330000-3030000
+Netflix,3.1,Full Stack Developer,0-1 years,"React, Node.js, SQL","London, UK",Remote,105000-130000
+SkyNetics,3.6,Cloud Engineer,1-3 years,"AWS, Azure, GCP","Hyderabad, India",Onsite,1430000-4480000
+Capgemini,4.0,Blockchain Developer,0-1 years,"Solidity, Web3","Noida, India",Remote,2100000-2150000
+Oracle,3.8,Software Engineer,5+ years,"DSA, OOP, Git","San Francisco, USA",Onsite,85000-145000
+Deloitte,4.5,Mobile App Developer,1-3 years,"Flutter, React Native","Berlin, Germany",Onsite,150000-160000
+Vertex Solutions,4.3,Operations Manager,5+ years,"Communication, Management","Pune, India",Remote,1200000-1750000
+Airbnb,4.0,Frontend Developer,5+ years,"HTML, CSS, JavaScript, React","Toronto, Canada",Remote,130000-170000
+NVIDIA,3.5,Cloud Engineer,5+ years,"AWS, Azure, GCP","Hyderabad, India",Remote,4030000-4230000
+PwC,3.6,Data Engineer,3-5 years,"SQL, Spark, ETL","Hyderabad, India",Onsite,1900000-3500000
+KPMG,3.4,HR Executive,0-1 years,"Communication, Management","New York, USA",Remote,130000-160000
+Vertex Solutions,4.4,Security Engineer,0-1 years,"Network Security, Cryptography","Hyderabad, India",Onsite,1200000-2250000
+Google,3.1,Android Developer,5+ years,"Kotlin, Java, Android SDK","London, UK",Remote,80000-155000
+KPMG,3.2,Security Engineer,1-3 years,"Network Security, Cryptography","Bengaluru, India",Onsite,1800000-3250000
+Salesforce,4.1,Software Engineer,1-3 years,"DSA, OOP, Git","San Francisco, USA",Onsite,145000-160000
+Microsoft,4.7,Data Engineer,5+ years,"SQL, Spark, ETL","Gurugram, India",Remote,2150000-2600000
+Airbnb,3.7,Data Scientist,0-1 years,"Python, Pandas, ML","Berlin, Germany",Remote,214000-224000
+FutureStack,3.6,DevOps Engineer,0-1 years,"Docker, Kubernetes, CI/CD","Hyderabad, India",Remote,2250000-2300000
+Capgemini,3.9,AI Engineer,1-3 years,"Deep Learning, PyTorch, Python","Pune, India",Remote,2580000-2680000
+PwC,3.4,Blockchain Developer,0-1 years,"Solidity, Web3","Hyderabad, India",Onsite,1150000-1700000
+LogicSquare,4.4,Security Engineer,0-1 years,"Network Security, Cryptography","Berlin, Germany",Onsite,170000-180000
+SigmaSoft,3.3,Full Stack Developer,5+ years,"React, Node.js, SQL","Chennai, India",Onsite,900000-1400000
+Airbnb,4.7,Frontend Developer,3-5 years,"HTML, CSS, JavaScript, React","Chennai, India",Remote,2200000-3150000
+Google,3.0,Mobile App Developer,0-1 years,"Flutter, React Native","Gurugram, India",Onsite,3100000-3350000
+Airbnb,4.5,Data Engineer,1-3 years,"SQL, Spark, ETL","New York, USA",Onsite,85000-145000
+SigmaSoft,4.4,AI Engineer,3-5 years,"Deep Learning, PyTorch, Python","San Francisco, USA",Remote,169000-174000
+Meta,3.8,Java Developer,1-3 years,"Java, Spring Boot","Berlin, Germany",Remote,130000-170000
+TechHive,3.5,Cloud Engineer,1-3 years,"AWS, Azure, GCP","Seattle, USA",Remote,99000-109000
+HCL,3.3,Frontend Developer,0-1 years,"HTML, CSS, JavaScript, React","Delhi, India",Remote,800000-1650000
+TechHive,4.7,Full Stack Developer,1-3 years,"React, Node.js, SQL","Chennai, India",Onsite,2050000-3300000
+KPMG,3.7,Cloud Engineer,1-3 years,"AWS, Azure, GCP","Toronto, Canada",Hybrid,169000-179000
+QuantumSoft,3.2,Android Developer,1-3 years,"Kotlin, Java, Android SDK","Bengaluru, India",Onsite,1950000-2350000
+Vertex Solutions,3.3,Cloud Engineer,3-5 years,"AWS, Azure, GCP","Toronto, Canada",Remote,104000-229000
+Accenture,3.3,HR Executive,0-1 years,"Communication, Management","Chennai, India",Remote,3400000-3450000
+PixelWorks,4.0,Backend Developer,0-1 years,"Python, Java, APIs, Databases","Toronto, Canada",Remote,105000-135000
+DataSpring,3.9,AI Engineer,1-3 years,"Deep Learning, PyTorch, Python","Hyderabad, India",Hybrid,3830000-4280000
+HCL,3.3,Java Developer,5+ years,"Java, Spring Boot","Mumbai, India",Onsite,1500000-2150000
+Meta,3.6,Web Developer,3-5 years,"HTML, CSS, JS","Pune, India",Onsite,2250000-2750000
+Oracle,4.6,Security Engineer,0-1 years,"Network Security, Cryptography","Seattle, USA",Remote,75000-155000
+QuantumSoft,3.6,Machine Learning Engineer,5+ years,"Python, TensorFlow, ML","San Francisco, USA",Hybrid,184000-214000
+Alpha Systems,3.9,Business Analyst,1-3 years,"Communication, Management","Toronto, Canada",Hybrid,165000-180000
+Capgemini,3.4,Business Analyst,1-3 years,"Communication, Management","Chennai, India",Hybrid,2550000-3400000
+NVIDIA,4.7,Data Scientist,1-3 years,"Python, Pandas, ML","Pune, India",Onsite,1130000-1330000
+PixelWorks,3.9,Android Developer,5+ years,"Kotlin, Java, Android SDK","Seattle, USA",Hybrid,150000-175000
+SigmaSoft,4.6,DevOps Engineer,3-5 years,"Docker, Kubernetes, CI/CD","Hyderabad, India",Hybrid,3050000-3100000
+PixelWorks,4.6,QA Automation Engineer,1-3 years,"Selenium, Testing","Toronto, Canada",Hybrid,140000-145000
+Google,3.3,iOS Developer,3-5 years,"Swift, iOS SDK","Hyderabad, India",Onsite,2500000-2600000
+Airbnb,4.0,SRE,3-5 years,"Linux, Monitoring, Cloud","San Francisco, USA",Onsite,219000-224000
+Alpha Systems,4.1,Backend Developer,3-5 years,"Python, Java, APIs, Databases","Chennai, India",Hybrid,1950000-3000000
+FutureStack,4.7,Software Engineer,0-1 years,"DSA, OOP, Git","London, UK",Remote,100000-130000
+Apple,4.3,iOS Developer,1-3 years,"Swift, iOS SDK","Pune, India",Hybrid,2200000-2800000
+NVIDIA,4.0,Web Developer,3-5 years,"HTML, CSS, JS",Singapore,Remote,70000-110000
+KPMG,3.3,Blockchain Developer,1-3 years,"Solidity, Web3","Toronto, Canada",Onsite,130000-180000
+DataSpring,4.3,QA Automation Engineer,5+ years,"Selenium, Testing","Noida, India",Onsite,3250000-3400000
+Capgemini,4.7,DevOps Engineer,3-5 years,"Docker, Kubernetes, CI/CD","Seattle, USA",Remote,110000-120000
+PixelWorks,3.1,QA Automation Engineer,5+ years,"Selenium, Testing","Hyderabad, India",Remote,3250000-3450000
+LogicSquare,4.4,Full Stack Developer,3-5 years,"React, Node.js, SQL","Mumbai, India",Hybrid,800000-1850000
+NVIDIA,3.4,QA Automation Engineer,0-1 years,"Selenium, Testing","Seattle, USA",Onsite,165000-170000
+Airbnb,3.4,Java Developer,5+ years,"Java, Spring Boot","Delhi, India",Hybrid,2500000-3050000
+LogicSquare,4.7,Cloud Engineer,0-1 years,"AWS, Azure, GCP","Bengaluru, India",Onsite,2880000-3230000
+TechHive,4.0,DevOps Engineer,0-1 years,"Docker, Kubernetes, CI/CD","San Francisco, USA",Remote,155000-165000
+Alpha Systems,4.3,Blockchain Developer,0-1 years,"Solidity, Web3","Berlin, Germany",Hybrid,100000-165000
+SkyNetics,4.4,Software Engineer,5+ years,"DSA, OOP, Git","Pune, India",Remote,2850000-3400000
+PwC,4.0,Java Developer,3-5 years,"Java, Spring Boot","Toronto, Canada",Onsite,145000-170000
+KPMG,3.9,HR Executive,0-1 years,"Communication, Management","Toronto, Canada",Remote,95000-165000
+Accenture,3.4,Mobile App Developer,1-3 years,"Flutter, React Native","Bengaluru, India",Remote,3100000-3250000
+Vertex Solutions,4.8,Software Engineer,1-3 years,"DSA, OOP, Git","Gurugram, India",Remote,3300000-3400000
+HCL,4.4,Mobile App Developer,3-5 years,"Flutter, React Native","Bengaluru, India",Remote,750000-900000
+Salesforce,4.8,Java Developer,3-5 years,"Java, Spring Boot","Gurugram, India",Remote,3350000-3400000
+QuantumSoft,3.7,Java Developer,1-3 years,"Java, Spring Boot","Gurugram, India",Remote,1400000-3450000
+KPMG,4.3,Software Engineer,0-1 years,"DSA, OOP, Git","Delhi, India",Onsite,3250000-3400000
+NVIDIA,4.2,QA Automation Engineer,5+ years,"Selenium, Testing","Bengaluru, India",Hybrid,2450000-2600000
+LogicSquare,3.7,Blockchain Developer,3-5 years,"Solidity, Web3","Pune, India",Remote,2700000-3000000
+Salesforce,4.1,Machine Learning Engineer,0-1 years,"Python, TensorFlow, ML","Chennai, India",Hybrid,4080000-4180000
+Netflix,4.2,Full Stack Developer,3-5 years,"React, Node.js, SQL","Berlin, Germany",Onsite,145000-155000
+SkyNetics,3.1,Mobile App Developer,5+ years,"Flutter, React Native","Noida, India",Hybrid,3000000-3450000
+SkyNetics,3.9,Machine Learning Engineer,5+ years,"Python, TensorFlow, ML","Chennai, India",Remote,2330000-3680000
+Oracle,3.3,QA Automation Engineer,5+ years,"Selenium, Testing","Pune, India",Onsite,1350000-1500000
+Capgemini,4.4,AI Engineer,1-3 years,"Deep Learning, PyTorch, Python","Bengaluru, India",Remote,3780000-4280000
+QuantumSoft,4.8,DevOps Engineer,3-5 years,"Docker, Kubernetes, CI/CD","Berlin, Germany",Remote,155000-175000
+Microsoft,3.9,Product Manager,1-3 years,"Communication, Management","Gurugram, India",Onsite,1750000-3300000
+KPMG,4.1,Blockchain Developer,5+ years,"Solidity, Web3","Pune, India",Hybrid,1050000-1450000
+LogicSquare,4.1,Java Developer,3-5 years,"Java, Spring Boot","Seattle, USA",Remote,95000-120000
+Alpha Systems,4.4,Full Stack Developer,5+ years,"React, Node.js, SQL","San Francisco, USA",Remote,160000-165000
+FutureStack,4.6,Software Engineer,3-5 years,"DSA, OOP, Git","Noida, India",Remote,3350000-3400000
+SigmaSoft,3.4,AI Engineer,0-1 years,"Deep Learning, PyTorch, Python","Noida, India",Onsite,1730000-2380000
+Airbnb,3.6,Blockchain Developer,0-1 years,"Solidity, Web3","San Francisco, USA",Remote,80000-180000
+Capgemini,4.1,HR Executive,0-1 years,"Communication, Management","Bengaluru, India",Hybrid,2450000-2750000
+SkyNetics,3.3,Frontend Developer,0-1 years,"HTML, CSS, JavaScript, React","San Francisco, USA",Remote,120000-160000
+SkyNetics,3.9,Mobile App Developer,5+ years,"Flutter, React Native","Pune, India",Onsite,2350000-3500000
+TechHive,3.4,Machine Learning Engineer,0-1 years,"Python, TensorFlow, ML","Noida, India",Onsite,1480000-3730000
+Google,3.3,Business Analyst,1-3 years,"Communication, Management","Chennai, India",Onsite,3300000-3400000
+Capgemini,4.2,iOS Developer,1-3 years,"Swift, iOS SDK","Gurugram, India",Hybrid,1550000-2450000
+QuantumSoft,3.8,Security Engineer,5+ years,"Network Security, Cryptography","Mumbai, India",Onsite,2600000-2700000
+Apple,3.3,Business Analyst,0-1 years,"Communication, Management","Noida, India",Hybrid,2800000-2850000
+KPMG,4.4,Security Engineer,1-3 years,"Network Security, Cryptography","Seattle, USA",Onsite,140000-170000
+Oracle,4.6,Python Developer,0-1 years,"Python, Flask, Django","Toronto, Canada",Remote,130000-135000
+Netflix,4.1,Java Developer,1-3 years,"Java, Spring Boot","Chennai, India",Remote,1700000-2100000
+DataSpring,3.1,Backend Developer,5+ years,"Python, Java, APIs, Databases","San Francisco, USA",Onsite,140000-180000
+Microsoft,4.0,Java Developer,0-1 years,"Java, Spring Boot","Toronto, Canada",Onsite,70000-115000
+Capgemini,4.8,iOS Developer,0-1 years,"Swift, iOS SDK",Singapore,Hybrid,95000-105000
+Apple,3.5,Backend Developer,1-3 years,"Python, Java, APIs, Databases","Berlin, Germany",Remote,95000-165000
+PixelWorks,3.5,Python Developer,1-3 years,"Python, Flask, Django","Chennai, India",Onsite,3250000-3450000
+Oracle,3.5,Business Analyst,3-5 years,"Communication, Management","London, UK",Remote,80000-120000
+Airbnb,4.6,Full Stack Developer,0-1 years,"React, Node.js, SQL","San Francisco, USA",Remote,130000-170000
+Microsoft,3.9,Mobile App Developer,0-1 years,"Flutter, React Native","Pune, India",Onsite,2850000-3000000
+HCL,4.3,Software Engineer,5+ years,"DSA, OOP, Git","New York, USA",Remote,105000-110000
+NVIDIA,3.4,Data Scientist,0-1 years,"Python, Pandas, ML","Pune, India",Remote,3930000-4580000
+LogicSquare,4.5,SRE,3-5 years,"Linux, Monitoring, Cloud","Noida, India",Remote,2780000-2930000
+Accenture,4.2,Security Engineer,0-1 years,"Network Security, Cryptography","Hyderabad, India",Onsite,600000-1200000
+DataSpring,4.4,Android Developer,5+ years,"Kotlin, Java, Android SDK","Bengaluru, India",Remote,1400000-2700000
+DataSpring,4.6,Blockchain Developer,1-3 years,"Solidity, Web3","Hyderabad, India",Hybrid,3350000-3450000
+FutureStack,3.9,Frontend Developer,3-5 years,"HTML, CSS, JavaScript, React","Berlin, Germany",Onsite,105000-150000
+KPMG,3.2,Blockchain Developer,3-5 years,"Solidity, Web3","Toronto, Canada",Onsite,165000-175000
+NVIDIA,3.3,Security Engineer,3-5 years,"Network Security, Cryptography","Chennai, India",Onsite,550000-1800000
+Microsoft,4.1,Full Stack Developer,0-1 years,"React, Node.js, SQL","Berlin, Germany",Onsite,80000-110000
+NVIDIA,3.2,Backend Developer,0-1 years,"Python, Java, APIs, Databases","Noida, India",Onsite,2150000-3400000
+Salesforce,3.5,Web Developer,5+ years,"HTML, CSS, JS","Seattle, USA",Remote,125000-155000
+Deloitte,3.6,Web Developer,1-3 years,"HTML, CSS, JS","San Francisco, USA",Onsite,90000-170000
+QuantumSoft,4.4,Android Developer,0-1 years,"Kotlin, Java, Android SDK",Singapore,Onsite,80000-120000
+Netflix,3.7,Full Stack Developer,1-3 years,"React, Node.js, SQL","London, UK",Onsite,85000-145000
+NVIDIA,4.0,Android Developer,3-5 years,"Kotlin, Java, Android SDK","Chennai, India",Hybrid,3000000-3400000
+KPMG,4.7,Frontend Developer,0-1 years,"HTML, CSS, JavaScript, React","London, UK",Remote,115000-130000
+LogicSquare,3.1,Technical Recruiter,3-5 years,"Communication, Management","San Francisco, USA",Remote,95000-160000
+Apple,3.1,Web Developer,5+ years,"HTML, CSS, JS","San Francisco, USA",Onsite,75000-180000
+SigmaSoft,4.1,Web Developer,5+ years,"HTML, CSS, JS","Bengaluru, India",Onsite,1450000-1800000
+Alpha Systems,3.5,Backend Developer,5+ years,"Python, Java, APIs, Databases","Mumbai, India",Hybrid,1300000-1350000
+Google,3.7,Software Engineer,0-1 years,"DSA, OOP, Git","Hyderabad, India",Onsite,400000-2450000
+Accenture,4.8,DevOps Engineer,5+ years,"Docker, Kubernetes, CI/CD","Chennai, India",Onsite,400000-1900000
+Netflix,4.0,Security Engineer,1-3 years,"Network Security, Cryptography","Delhi, India",Remote,2850000-3300000
+Airbnb,4.1,DevOps Engineer,5+ years,"Docker, Kubernetes, CI/CD","London, UK",Remote,170000-180000
+SkyNetics,4.3,Android Developer,0-1 years,"Kotlin, Java, Android SDK","Seattle, USA",Remote,170000-175000
+Salesforce,3.6,Android Developer,3-5 years,"Kotlin, Java, Android SDK","Hyderabad, India",Remote,650000-3050000
+PwC,3.2,iOS Developer,5+ years,"Swift, iOS SDK","Mumbai, India",Remote,700000-1400000
+Alpha Systems,3.2,Cloud Engineer,3-5 years,"AWS, Azure, GCP","Noida, India",Remote,3580000-3930000
+KPMG,3.6,Data Engineer,3-5 years,"SQL, Spark, ETL","San Francisco, USA",Hybrid,70000-95000
+DataSpring,3.9,Cloud Engineer,5+ years,"AWS, Azure, GCP","Bengaluru, India",Remote,1380000-2930000
+HCL,3.5,Security Engineer,3-5 years,"Network Security, Cryptography","Toronto, Canada",Remote,150000-170000
+Alpha Systems,3.8,Machine Learning Engineer,3-5 years,"Python, TensorFlow, ML","London, UK",Hybrid,179000-229000
+Netflix,3.7,Backend Developer,1-3 years,"Python, Java, APIs, Databases","Mumbai, India",Onsite,900000-3100000
+PixelWorks,3.9,Data Engineer,5+ years,"SQL, Spark, ETL","San Francisco, USA",Hybrid,90000-160000
+Accenture,4.6,Data Engineer,1-3 years,"SQL, Spark, ETL","Pune, India",Remote,2650000-2850000
+TechHive,4.3,Operations Manager,5+ years,"Communication, Management","Berlin, Germany",Remote,95000-110000
+LogicSquare,3.7,Frontend Developer,1-3 years,"HTML, CSS, JavaScript, React","Hyderabad, India",Remote,3000000-3450000
+DataSpring,3.7,SRE,1-3 years,"Linux, Monitoring, Cloud",Singapore,Onsite,179000-189000
+FutureStack,4.6,Python Developer,3-5 years,"Python, Flask, Django","Delhi, India",Onsite,3250000-3500000
+HCL,4.4,HR Executive,1-3 years,"Communication, Management","Berlin, Germany",Hybrid,125000-165000
+Oracle,4.3,Data Scientist,0-1 years,"Python, Pandas, ML","Seattle, USA",Onsite,194000-199000
+Salesforce,4.2,Python Developer,0-1 years,"Python, Flask, Django","Bengaluru, India",Remote,1800000-2950000
+Apple,3.0,Java Developer,1-3 years,"Java, Spring Boot","Seattle, USA",Hybrid,160000-175000
+SkyNetics,3.7,Data Scientist,0-1 years,"Python, Pandas, ML","Berlin, Germany",Onsite,189000-194000
+NVIDIA,4.4,Web Developer,3-5 years,"HTML, CSS, JS","Chennai, India",Remote,2650000-3450000
+FutureStack,3.9,Business Analyst,5+ years,"Communication, Management","Berlin, Germany",Remote,150000-175000
+Vertex Solutions,4.0,AI Engineer,0-1 years,"Deep Learning, PyTorch, Python","Berlin, Germany",Hybrid,144000-199000
+NVIDIA,4.3,Machine Learning Engineer,3-5 years,"Python, TensorFlow, ML","Toronto, Canada",Onsite,124000-169000
+Vertex Solutions,4.1,Android Developer,0-1 years,"Kotlin, Java, Android SDK","Bengaluru, India",Hybrid,3300000-3450000
+TechHive,4.4,Web Developer,3-5 years,"HTML, CSS, JS","Seattle, USA",Remote,90000-170000
+DataSpring,4.6,Backend Developer,0-1 years,"Python, Java, APIs, Databases","New York, USA",Onsite,100000-155000
+Capgemini,3.5,Software Engineer,1-3 years,"DSA, OOP, Git","Chennai, India",Hybrid,1350000-2850000
+PixelWorks,3.9,Cloud Engineer,0-1 years,"AWS, Azure, GCP","Berlin, Germany",Onsite,179000-229000
+Deloitte,4.1,Software Engineer,5+ years,"DSA, OOP, Git","San Francisco, USA",Remote,115000-160000
+Netflix,4.8,Android Developer,0-1 years,"Kotlin, Java, Android SDK","New York, USA",Remote,95000-155000
+DataSpring,4.0,Blockchain Developer,1-3 years,"Solidity, Web3","Seattle, USA",Hybrid,70000-110000
+FutureStack,4.0,HR Executive,0-1 years,"Communication, Management","Bengaluru, India",Onsite,1350000-1600000
+HCL,4.6,QA Automation Engineer,1-3 years,"Selenium, Testing","Pune, India",Remote,2700000-3350000
+DataSpring,3.4,Mobile App Developer,1-3 years,"Flutter, React Native","Berlin, Germany",Onsite,150000-155000
+PwC,3.8,Product Manager,0-1 years,"Communication, Management","Bengaluru, India",Remote,1150000-2250000
+KPMG,3.5,Blockchain Developer,3-5 years,"Solidity, Web3","Pune, India",Remote,3250000-3400000
+QuantumSoft,4.6,Full Stack Developer,0-1 years,"React, Node.js, SQL","Pune, India",Remote,1900000-2900000
+Salesforce,3.1,Backend Developer,3-5 years,"Python, Java, APIs, Databases","Seattle, USA",Remote,105000-120000
+Vertex Solutions,3.6,Mobile App Developer,0-1 years,"Flutter, React Native","London, UK",Remote,105000-115000
+HCL,3.6,Data Engineer,0-1 years,"SQL, Spark, ETL","Delhi, India",Onsite,2950000-3100000
+Alpha Systems,3.2,Software Engineer,5+ years,"DSA, OOP, Git","San Francisco, USA",Onsite,150000-155000
+DataSpring,3.8,QA Automation Engineer,3-5 years,"Selenium, Testing","Hyderabad, India",Onsite,450000-1750000
+Netflix,3.3,Web Developer,0-1 years,"HTML, CSS, JS","San Francisco, USA",Remote,140000-150000
+QuantumSoft,3.2,Python Developer,1-3 years,"Python, Flask, Django","Seattle, USA",Onsite,160000-180000
+HCL,3.5,Backend Developer,3-5 years,"Python, Java, APIs, Databases",Singapore,Onsite,155000-175000
+Vertex Solutions,3.4,AI Engineer,1-3 years,"Deep Learning, PyTorch, Python","New York, USA",Onsite,94000-199000
+Capgemini,3.5,Cloud Engineer,1-3 years,"AWS, Azure, GCP","Toronto, Canada",Hybrid,139000-169000
+PwC,3.6,Data Engineer,5+ years,"SQL, Spark, ETL","Berlin, Germany",Onsite,145000-155000
+SkyNetics,4.5,Frontend Developer,5+ years,"HTML, CSS, JavaScript, React","Delhi, India",Onsite,1550000-2000000
+Vertex Solutions,4.2,Full Stack Developer,3-5 years,"React, Node.js, SQL","Hyderabad, India",Onsite,2050000-3000000
