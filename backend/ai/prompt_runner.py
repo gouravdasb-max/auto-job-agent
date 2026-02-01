@@ -1,12 +1,8 @@
 import subprocess
 
 def run_prompt(prompt: str) -> str:
-    """
-    Runs a real LLM locally using Ollama.
-    """
-
     process = subprocess.Popen(
-        ["ollama", "run", "mistral"],
+    ["ollama", "run", "deepseek-coder"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -16,6 +12,6 @@ def run_prompt(prompt: str) -> str:
     stdout, stderr = process.communicate(prompt)
 
     if stderr:
-        print("LLM error:", stderr)
+        print(stderr)
 
     return stdout.strip()

@@ -10,3 +10,9 @@ def parse_json_safely(text):
         return json.loads(match.group())
     except Exception:
         return None
+
+def extract_json(text):
+    match = re.search(r"\{.*\}", text, re.S)
+    if not match:
+        return {}
+    return json.loads(match.group())
