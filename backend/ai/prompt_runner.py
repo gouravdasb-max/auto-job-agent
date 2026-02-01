@@ -1,19 +1,21 @@
-def build_job_match_prompt(user_skills, job_requirements):
-    with open("backend/ai/job_matching_prompt.txt", "r") as f:
-        template = f.read()
+import subprocess
 
-    prompt = template.replace(
-        "{{user_skills}}", user_skills
-    ).replace(
-        "{{job_requirements}}", job_requirements
+def run_prompt(prompt: str) -> str:
+    """
+    Runs a real LLM locally using Ollama.
+    """
+
+    process = subprocess.Popen(
+        ["ollama", "run", "mistral"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
     )
 
-    return prompt
+    stdout, stderr = process.communicate(prompt)
 
+    if stderr:
+        print("LLM error:", stderr)
 
-# quick test
-if __name__ == "__main__":
-    user_skills = "python, flask, sql"
-    job_requirements = "python, django, sql, aws"
-
-    print(build_job_match_prompt(user_skills, job_requirements))
+    return stdout.strip()

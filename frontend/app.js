@@ -102,3 +102,19 @@ function apply(btn) {
     alert("Limit reached");
   }
 }
+
+async function applyJob(job) {
+  const response = await fetch("http://localhost:5000/apply", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      job: job,
+      student_profile: window.studentProfile,
+      answer_library: window.answerLibrary
+    })
+  });
+
+  const application = await response.json();
+  showApplication(application);
+}
+
